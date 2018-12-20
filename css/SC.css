@@ -1,0 +1,54 @@
+#block{
+	font-family:"Times Now Roman";
+	font-size:18px;
+	width:450px;
+	height: auto;
+	margin: 50px auto;/*center*/
+	
+	}
+	#calculator * {
+		 font-size: 16px; /* увеличение шрифта кнпок*/
+		 
+		 }
+	#calculator table {
+	  border: solid 3px silver; 
+	  border-spacing: 13px; 
+	  background-color: #EEE; /* появляется макет калькулятора */
+	  
+	  }	 
+	 #demo {
+		font-size: 24px; /* расширяется макет калькулятора. Есть цвет окна ввода */
+		color: green;
+	  }
+	  #demo1 {
+		font-size: 24px; /* увелечение размера калькулятора. Есть цвет второго индикатра*/
+		color: red;
+	  }
+	  input.display {
+	   width: 250px; 
+	   text-align: right;/* регулирует длину дисплея*/
+	   
+	   }
+	   td.buttons {
+	  border-top: solid 5px silver;/*появление верхней горизонтальной черты*/
+	  margin: 15px auto;/*center*/
+	 
+	  }
+	  input[type= button] {
+	  width: 70px; 
+	  height: 40px; /* большой и красивый внешний вид калькулятора*/
+	  
+	  } 
+	  .buttons {
+         background-color: white; /* расширение области клавиатукы калькулятора*/
+         color: black;
+         border: 2px solid #4CAF50; /* Green */
+	     border-radius: 10px;
+	     padding: 15px 15px;
+	     font-size: 16px;
+                  }
+	 .buttons:hover {
+         background-color: green;/* при наведении мыши зеленный фон*/
+	    }		  
+	  
+	
